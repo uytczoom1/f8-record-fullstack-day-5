@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui;
+    font-size: 8px;
+    font-weight: 550;
+}
+
+body {
+    margin: 54px 0;
+    background-color: #ccc;
+}
+
+.cv {
+    max-width: 584px;
+    min-height: 672px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 52px 52px 52px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cv p:nth-of-type(1) {
+    padding-bottom: 8px;
+}
+
+h1 {
+    font-size: 14px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.job-row {
+    display: flex;
+    justify-content: space-between;
+}
+ul li {
+    line-height: 1.6;
+}
+ul li::marker {
+    font-size: 12px;
+}
+hr {
+    border: 0;
+    height: 0.8px;
+    background-color: #444;
+    margin: 5px 0 7px 0;
+}
+.left, .right, strong {
+    font-weight: 850;
+}
+
+p {
+    margin: 0;
+}
+
+
